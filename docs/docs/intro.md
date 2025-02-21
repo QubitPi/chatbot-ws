@@ -16,11 +16,12 @@ More info about difference between JAX-RS and Spring can be found in [this threa
 
 :::
 
-To use ChatbotWS as the basis for a webservice, we start by creating a repository using the template on GitHub.
+- OpenAPI Key
 
 - [Development](development)
 - [Configuration](configuration)
 
 [JAX-RS]: https://jcp.org/en/jsr/detail?id=370
 [ChatbotWS]: https://chatbot.qubitpi.org/
+[Jersey]: https://qubitpi.github.io/jersey/
 [Jetty]: https://en.wikipedia.org/wiki/Jetty_(web_server)

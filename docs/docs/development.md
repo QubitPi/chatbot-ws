@@ -159,7 +159,7 @@ docker run --name=chatbot-ws -it -p 8080:8080 jack20191124/chatbot-ws
   access webservice from host machine web browser at `localhost:8080`
 
 If we see the following output, it means the container is running properly and ready to accept request such as
-`http://localhost:8080/v1/data/healthcheck`
+`http://localhost:8080/v1/healthcheck`
 
 ```bash
 ...

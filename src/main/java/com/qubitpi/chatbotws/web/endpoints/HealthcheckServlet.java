@@ -15,9 +15,6 @@
  */
 package com.qubitpi.chatbotws.web.endpoints;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -33,19 +30,9 @@ import net.jcip.annotations.ThreadSafe;
 @Singleton
 @Immutable
 @ThreadSafe
-@Path("/data")
+@Path("/healthcheck")
 @Produces(MediaType.APPLICATION_JSON)
-public class DataServlet {
-
-    private static final ObjectMapper JSON_MAPPER = new ObjectMapper();
-
-    /**
-     * Constructor for dependency injection.
-     */
-    @Inject
-    public DataServlet() {
-        // intentionally left blank
-    }
+public class HealthcheckServlet {
 
     /**
      * A webservice sanity-check endpoint.
@@ -53,7 +40,6 @@ public class DataServlet {
      * @return 200 OK response
      */
     @GET
-    @Path("/healthcheck")
     public Response healthcheck() {
         return Response
                 .status(Response.Status.OK)

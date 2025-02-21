@@ -6,7 +6,7 @@ ChatbotWS
 [![Apache License Badge]][Apache License, Version 2.0]
 
 __ChatbotWS__ is a [JSR 370] webservice template that lets us spin up Java webservice quickly through
-[GitHub templates].  Whether we want to create a chatbot that leverages popular APIs such as ChatGPT or connect to our
+[GitHub templates]. Whether we want to create a chatbot that leverages popular APIs such as ChatGPT or connect to our
 own custom service, this template can do it all! Explore [chatbot.qubitpi.org](https://chatbot.qubitpi.org/) to view all
 of its available features, how to use them, examples and more!
 
@@ -35,16 +35,16 @@ docker run --name=chatbot-ws -it -p 8080:8080 jack20191124/chatbot-ws
 That's it. A healthcheck endpoint can be pinned with
 
 ```console
-curl -v localhost:8080/v1/data/healthcheck
+curl -v localhost:8080/v1/healthcheck
 ```
 
 which would gave
 
 ```console
-$ curl -v localhost:8080/v1/data/healthcheck
+$ curl -v localhost:8080/v1/healthcheck
 *   Trying 127.0.0.1:8080...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
-> GET /v1/data/healthcheck HTTP/1.1
+> GET /v1/healthcheck HTTP/1.1
 > Host: localhost:8080
 > User-Agent: curl/7.85.0
 > Accept: */*
