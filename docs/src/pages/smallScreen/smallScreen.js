@@ -8,10 +8,10 @@ export default function SmallScreenPanel() {
       <DeepChatBrowser
         demo={true}
         history={[
-          {text: 'What is Deep Chat?', role: 'user'},
-          {text: 'A framework agnostic chat component.', role: 'ai'},
+          {text: 'What is Chatbot WS?', role: 'user'},
+          {text: 'An API agnostic chat webservice.', role: 'ai'},
           {text: 'What exactly can it be used for?', role: 'user'},
-          {text: 'Add it to your website to connect to AI APIs.', role: 'ai'},
+          {text: 'Deploy it as a webservice to connect to AI APIs.', role: 'ai'},
         ]}
         style={{
           borderRadius: '10px',

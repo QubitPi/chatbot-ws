@@ -83,10 +83,10 @@ function ComponentPanel() {
         <DeepChatBrowser
           demo={true}
           history={[
-            {text: 'What is Deep Chat?', role: 'user'},
-            {text: 'A framework agnostic chat component.', role: 'ai'},
+            {text: 'What is Chatbot WS?', role: 'user'},
+            {text: 'An API agnostic chat webservice.', role: 'ai'},
             {text: 'What exactly can it be used for?', role: 'user'},
-            {text: 'Add it to your website to connect to AI APIs.', role: 'ai'},
+            {text: 'Deploy it as a webservice to connect to AI APIs.', role: 'ai'},
           ]}
           style={{
             borderRadius: '10px',
@@ -108,7 +108,7 @@ export function HeaderPanel() {
   return (
     <div>
       <h1 id="start-panel-header" className="header-font">
-        Deep Chat
+        Chatbot WS
       </h1>
       {/* <h1 id="start-panel-sub-header">One chatbot to rule them all</h1> */}
       {/* <h1 id="start-panel-sub-header">Framework agnostic chat component to power AI services of tomorrow</h1> */}

@@ -62,13 +62,13 @@ const config = {
       metadata: [
         {name: 'description', content: 'Customizable chat component for AI APIs'},
         {name: 'keywords', content: 'ai, chat, bot, chatbot, assistant, component'},
-        {name: 'og:title', content: 'Deep Chat'},
+        {name: 'og:title', content: 'Chatbot WS'},
         {name: 'og:description', content: 'Customizable chat component for AI APIs'},
         {
           name: 'og:image',
           content: 'https://raw.githubusercontent.com/OvidijusParsiunas/deep-chat/main/assets/readme/social-media-4.png',
         },
-        {name: 'og:url', content: 'https://deepchat.dev/'},
+        {name: 'og:url', content: 'https://chatbot.qubitpi.org/'},
         {name: 'twitter:title', content: 'Deep Chat'},
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:site', content: '@deepchat'},
@@ -79,9 +79,9 @@ const config = {
         },
       ],
       navbar: {
-        title: 'Deep Chat',
+        title: 'Chatbot WS',
         logo: {
-          alt: 'Deep Chat img',
+          alt: 'Chatbot WS img',
           src: 'img/deep-chat-title.svg',
           width: 31,
           height: 31,

@@ -394,7 +394,7 @@ export default function SocialMedia() {
           style={{width: '70px', marginRight: '15px', marginLeft: '-50px', marginBottom: '-10px'}}
           src="img/deep-chat-title.svg"
         ></img>
-        Deep Chat
+        Chatbot WS
       </div>
       {/* <div
         id="media-diagonal-padding"
