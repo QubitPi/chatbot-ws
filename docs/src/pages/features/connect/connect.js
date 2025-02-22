@@ -7,8 +7,8 @@ function RightPanel() {
   return (
     <div id="connect-right-panel" className="feature-panel">
       <div id="connect-text">
-        Deep Chat can connect to any API. Use it to communicate with popular AI providers directly from the browser or
-        configure it to connect to your own servers.
+        With its flexible architecture, Chatbot WS can proxy any API. Use it to communicate with popular AI providers
+        directly from the browser or configure it to connect to our own servers.
       </div>
     </div>
   );

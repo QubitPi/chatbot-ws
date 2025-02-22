@@ -110,7 +110,7 @@ const config = {
             label: 'Playground',
           },
           {
-            href: 'https://github.com/OvidijusParsiunas/deep-chat',
+            href: 'https://github.com/QubitPi/chatbot-ws',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
