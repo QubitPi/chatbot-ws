@@ -8,7 +8,7 @@ The documentation website has been built using [Docusaurus 2](https://docusaurus
 
 ## :construction_worker: Local setup
 
-```
+```console
 # Install node dependencies:
 $ yarn install
 
